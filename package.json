@@ -2,8 +2,8 @@
   "name": "root",
   "private": true,
   "scripts": {
-    "test": "chmod +x ./scripts/test.js && node ./scripts/test.js",
-    "postinstall": "lerna clean -y"
+    "postinstall": "lerna clean -y",
+    "test": "lerna publish"
   },
   "workspaces": [
     "packages/*"
