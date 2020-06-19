@@ -1,6 +1,13 @@
 {
   "name": "root",
   "private": true,
+  "scripts": {
+    "test": "chmod +x ./scripts/test.js && node ./scripts/test.js",
+    "postinstall": "lerna clean -y"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
   "devDependencies": {
     "lerna": "^3.20.2"
   }

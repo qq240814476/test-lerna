@@ -11,6 +11,7 @@
   "license": "ISC",
   "gitHead": "1171ca3deb83857f95793b3f77e6ca2714361e05",
   "dependencies": {
-    "btest": "^1.0.3"
+    "btest": "^1.0.3",
+    "chalk": "^4.1.0"
   }
 }
